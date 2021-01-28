@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <!-- agregar enlace estilos.css-->
+    <link rel="stylesheet" type ="text/css" media = "screen" href="./css/estilos.css">
+    
+</head>
+
+<!-- inicia Cuerpo-->
+<body>
+    <!--Inicia Contenedor-->
+        <!-- nombrar el contenedor para los estilos-->
+    <div class="container">
+                 <!--Creacion clase calculadora -->
+            <div class="calculadora" class="column">
+                    <!-- Ingreso Titulo -->
+                    <h1 style="text-align: center;"> Calculadora </h1>
+
+                            <!-- input para ingresar informacion-->
+                            <div class="calculator-info">
+                                <input id="data" type="text" disabled /> 
+                            </div>
+
+                            <!--ingreso div para los numeros-->
+                <div class= "calculator-data row">
+
+                            
+                                
+                            <div class="row" style=" width: 90%; flex-wrap: wrap;" >
+                                    
+                                    <!-- ingreso input tipo Boton-->
+                                <input type="button" class ="btn-number" onclick="" value="1">
+                                <input type="button" class ="btn-number" onclick="" value="2">
+                                <input type="button" class ="btn-number" onclick="" value="3">
+                                <input type="button" class ="btn-number" onclick="" value="4">
+                                <input type="button" class ="btn-number" onclick="" value="5">
+                                <input type="button" class ="btn-number" onclick="" value="6">
+                                <input type="button" class ="btn-number" onclick="" value="7">
+                                <input type="button" class ="btn-number" onclick="" value="8">
+                                <input type="button" class ="btn-number" onclick="" value="9">                              
+                                <input type="button" class ="btn-number" onclick="" value="0">
+                                <input type="button" class ="btn-number" onclick="" value="Clear">
+                                <input type="button" class ="btn-number" onclick="" value="=">
+                                
+                                     <!-- fin input tipo Boton-->
+                            
+                            </div>
+                            
+                            <!--fin numeros-->
+
+                            <!--ingreso div para las operaciones-->
+
+                            <div>
+                                <!-- ingreso input tipo Boton-->
+                                <input type="button" class= "btn-operator" onclick="" value="+">                              
+                                <input type="button" class= "btn-operator"onclick="" value="-">
+                                <input type="button" class= "btn-operator"onclick="" value="*">
+                                <input type="button" class= "btn-operator"onclick="" value="/">
+                                <!-- fin input tipo Boton-->
+                            </div>
+                            <!--fin propiedades-->                 
+                    </div>
+                             <!--termina contenedor-->
+    </div>
+                             <!-- agregar libreria y archivo java-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/javascript.js"></script>
+    
+</body>
+<!--termina cuerpo-->
+</html>
